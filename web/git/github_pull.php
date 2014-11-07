@@ -7,6 +7,10 @@
 	 *		https://gist.github.com/1809044
 	 */
  
+
+$path = "C:\wamp\www\myWebApp"; 
+chdir($path);
+
 	// The commands
 	$commands = array(
 		'echo $PWD',
